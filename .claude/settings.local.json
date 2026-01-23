@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(echo:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "mcp__chrome-devtools__list_pages",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__performance_start_trace",
+      "mcp__chrome-devtools__performance_analyze_insight",
+      "mcp__chrome-devtools__take_snapshot"
     ]
   }
 }
